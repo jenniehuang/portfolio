@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      display: ["group-hover"],
+      marginTop: {
+        "400px": "400px",
+      },
       animation: {
         blob: "blob 7s infinite",
       },

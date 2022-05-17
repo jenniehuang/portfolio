@@ -2,15 +2,12 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <nav className="fixed w-full text-black ">
-      <div className="flex flex-row md:justify-between md:mx-20 p-4">
-        <div className="left-0 text-2xl">
+    <nav className="fixed top-0 w-full text-black bg-white border-b z-20  font-serif ">
+      <div className="flex flex-row justify-between md:mx-20 p-4 text-xl md:text-2xl">
+        <div className="left-0">
           <Link href="/">JennieHuang</Link>
         </div>
-        <ul className="flex flex-row right-0 justify-between text-2xl">
-          <li className="ml-4">
-            <Link href="/about">About</Link>
-          </li>
+        <ul className="flex flex-row ">
           <li className="ml-4">
             <Link href="/projects">Projects</Link>
           </li>
