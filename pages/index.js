@@ -9,7 +9,7 @@ export default function Home() {
             👋 Hi I'm Jennie
           </p>
           <p className="text-base md:text-3xl mb-8">
-            Web developer with good communication skills, and a strong work
+            A web developer with good communication skills, and a strong work
             ethic. I like to solve problems in different ways, and challenge
             myself to do better.
             <br /> Originally from Taiwan, currently based in Taipei.
