@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <a
           className="mb-4 border-2 border-black rounded-md px-4 py-1 text-lg font-semibold"
-          href="/Resume-4.pdf"
+          href="/Resume-6.pdf"
           target="_blank"
         >
           Resume
