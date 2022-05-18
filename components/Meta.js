@@ -17,7 +17,7 @@ Meta.defaultProps = {
   title: "Jennie Huang",
   keywords: "web development, programming",
   description:
-    "A full stack web developer with a strong grasp of programming principles and a passion for coding.",
+    " Web developer with good communication skills, and a strong work ethic. I like to solve problems in different ways, and challenge myself to do better.",
 };
 
 export default Meta;
