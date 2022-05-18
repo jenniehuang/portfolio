@@ -2,18 +2,17 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <div className=" lg:mt-20 md:p-16 text-2xl md:leading-loose fade-in">
         <div className="w-full lg:w-1/2 text-center lg:text-left">
           <p className="text-4xl md:text-7xl font-bold mb-8">
             👋 Hi I'm Jennie
           </p>
           <p className="text-base md:text-3xl mb-8">
-            A full stack web developer with a strong grasp of programming
-            principles and a passion for coding, excellent communication skills,
-            and a strong work ethic. Originally from Taiwan, currently based in
-            Taipei. Fluent in Mandarin, Javascript, and Python; conversational
-            in English.
+            Web developer with good communication skills, and a strong work
+            ethic. I like to solve problems in different ways, and challenge
+            myself to do better.
+            <br /> Originally from Taiwan, currently based in Taipei.
           </p>
         </div>
       </div>
@@ -32,7 +31,24 @@ export default function Home() {
             objectFit="contain"
           />
         </a>
-        <div className=" text-lg font-semibold">ting1236t19@gmail.com</div>
+        <a className="mr-8" href="https://medium.com/@tingt">
+          <Image src="/medium.png" width={35} height={35} objectFit="contain" />
+        </a>
+        <div
+          onClick={() => {
+            window.open("mailto:ting1236t19@gmail.com");
+          }}
+          className="mr-8 cursor-pointer underline text-lg font-semibold"
+        >
+          ting1236t19@gmail.com
+        </div>
+        <a
+          className="border-2 border-black rounded-md px-4 py-1 text-lg font-semibold"
+          href="/Resume-2.pdf"
+          target="_blank"
+        >
+          Resume
+        </a>
       </div>
     </div>
   );

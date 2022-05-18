@@ -8,7 +8,7 @@ const projects = () => {
       img: "/co-edit.png",
       link: "https://www.co-edit.xyz/",
       gh: "https://github.com/jenniehuang/Co-Edit",
-      desc: "Co-edit is a WYSIWYG editor allows you to co-editing the same document with others online in real-time. ",
+      desc: "Co-edit is a WYSIWYG editor allows you to co-edit the same document with others online in real-time. ",
     },
     {
       title: "🎨 color-picker",
@@ -27,7 +27,7 @@ const projects = () => {
   ];
 
   return (
-    <div className="lg:mt-20 w-11/12 flex flex-row flex-wrap justify-center md:justify-between">
+    <div className="lg:mt-20 w-11/12 flex flex-row flex-wrap justify-center md:justify-between fade-in">
       {projectsList.map((v) => (
         <Project key={v.title} project={v} />
       ))}

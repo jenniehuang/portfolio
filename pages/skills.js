@@ -76,7 +76,7 @@ const skills = () => {
     },
     {
       title: "GCP",
-      img: "/gcp.png",
+      img: "/gcp.jpeg",
     },
     {
       title: "Firebase",
@@ -84,7 +84,7 @@ const skills = () => {
     },
   ];
   return (
-    <div className="lg:-mt-8 flex flex-row flex-wrap justify-center">
+    <div className="lg:-mt-8 flex flex-row flex-wrap justify-center  fade-in">
       {skillsList.map((v) => (
         <Skill key={v.title} skill={v} />
       ))}
