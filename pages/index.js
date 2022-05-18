@@ -16,12 +16,12 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex flex-row items-center md:pl-16 fade-in-1">
-        <a className="mr-8" href="https://github.com/jenniehuang">
+      <div className="flex flex-col md:flex-row items-center md:pl-16 fade-in-1">
+        <a className="mb-4 md:mr-8" href="https://github.com/jenniehuang">
           <Image src="/github.png" width={40} height={40} objectFit="contain" />
         </a>
         <a
-          className="mr-8"
+          className="mb-4 md:mr-8"
           href="https://www.linkedin.com/in/yu-ting-huang-643453143/"
         >
           <Image
@@ -31,19 +31,19 @@ export default function Home() {
             objectFit="contain"
           />
         </a>
-        <a className="mr-8" href="https://medium.com/@tingt">
+        <a className="mb-4 md:mr-8" href="https://medium.com/@tingt">
           <Image src="/medium.png" width={35} height={35} objectFit="contain" />
         </a>
         <div
           onClick={() => {
             window.open("mailto:ting1236t19@gmail.com");
           }}
-          className="mr-8 cursor-pointer underline text-lg font-semibold"
+          className="mb-4 md:mr-8 cursor-pointer underline text-lg font-semibold"
         >
           ting1236t19@gmail.com
         </div>
         <a
-          className="border-2 border-black rounded-md px-4 py-1 text-lg font-semibold"
+          className="mb-4 border-2 border-black rounded-md px-4 py-1 text-lg font-semibold"
           href="/Resume-2.pdf"
           target="_blank"
         >
