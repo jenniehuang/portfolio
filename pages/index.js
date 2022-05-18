@@ -10,7 +10,7 @@ export default function Home() {
           </p>
           <p className="text-base md:text-3xl mb-8">
             A web developer with good communication skills, and a strong work
-            ethic. I like to solve problems in different ways, and challenge
+            ethic. Like to solve problems in different ways, and challenge
             myself to do better.
             <br /> Originally from Taiwan, currently based in Taipei.
           </p>
@@ -34,6 +34,13 @@ export default function Home() {
         <a className="mb-4 md:mr-8" href="https://medium.com/@tingt">
           <Image src="/medium.png" width={35} height={35} objectFit="contain" />
         </a>
+        <a
+          className="mb-4 md:mr-8 border-2 border-black rounded-md px-4 py-1 text-lg font-semibold"
+          href="/Resume.pdf"
+          target="_blank"
+        >
+          Resume
+        </a>
         <div
           onClick={() => {
             window.open("mailto:ting1236t19@gmail.com");
@@ -42,13 +49,6 @@ export default function Home() {
         >
           ting1236t19@gmail.com
         </div>
-        <a
-          className="mb-4 border-2 border-black rounded-md px-4 py-1 text-lg font-semibold"
-          href="/Resume-6.pdf"
-          target="_blank"
-        >
-          Resume
-        </a>
       </div>
     </div>
   );
