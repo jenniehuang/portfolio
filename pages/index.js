@@ -50,9 +50,6 @@ export default function Home() {
         >
           ting1236t19@gmail.com
         </div>
-        <Link href="/bootcampReview" className="mb-4 md:mr-8 cursor-pointer">
-          #
-        </Link>
       </div>
     </div>
   );
