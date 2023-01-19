@@ -8,7 +8,7 @@ const projects = () => {
       img: "/co-edit.png",
       link: "https://www.co-edit.xyz/",
       gh: "https://github.com/jenniehuang/Co-Edit",
-      desc: "Co-edit is a WYSIWYG editor allows you to co-edit the same document with others online in real-time. ",
+      desc: "Co-edit is a WYSIWYG editor that allows you to co-edit the same document with others online in real-time. ",
     },
     {
       title: "🎨 color-picker",
