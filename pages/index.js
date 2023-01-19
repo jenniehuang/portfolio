@@ -13,7 +13,7 @@ export default function Home() {
             A web developer with good communication skills, and a strong work
             ethic. Like to solve problems in different ways, and challenge
             myself to do better.
-            <br /> Originally from Taiwan, currently based in Taipei.
+            <br /> Originally from Taiwan.
           </p>
         </div>
       </div>
