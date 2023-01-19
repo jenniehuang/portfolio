@@ -15,6 +15,10 @@ const skills = () => {
       img: "/Javascript.png",
     },
     {
+      title: "TypeScript",
+      img: "/typescript.png",
+    },
+    {
       title: "Sass",
       img: "/Sass.png",
     },
