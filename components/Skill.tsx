@@ -1,8 +1,15 @@
 import Image from "next/image";
-const Skill = ({ skill }) => {
+
+interface SkillProps {
+  skill: {
+    title: string;
+    img: string;
+  };
+}
+
+const Skill = ({ skill }: SkillProps) => {
   return (
     <div className=" w-1/3 md:w-40 p-4 md:m-8 flex flex-col justify-between items-center hover:bg-slate-400 rounded-md">
-      {/* <img className="w-full" src={skill.img} alt="" /> */}
       <Image
         className="w-full"
         src={skill.img}
@@ -18,3 +25,4 @@ const Skill = ({ skill }) => {
 };
 
 export default Skill;
+

@@ -1,8 +1,16 @@
 import Project from "../components/Project";
 import Head from "next/head";
 
+interface ProjectData {
+  title: string;
+  img: string;
+  link: string;
+  gh: string;
+  desc: string;
+}
+
 const projects = () => {
-  const projectsList = [
+  const projectsList: ProjectData[] = [
     {
       title: "📝 Co-Edit",
       img: "/co-edit.png",
@@ -36,3 +44,4 @@ const projects = () => {
 };
 
 export default projects;
+

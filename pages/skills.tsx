@@ -1,7 +1,12 @@
 import Skill from "../components/Skill";
 
+interface SkillData {
+  title: string;
+  img: string;
+}
+
 const skills = () => {
-  const skillsList = [
+  const skillsList: SkillData[] = [
     {
       title: "HTML5",
       img: "/HTML5.png",
@@ -97,3 +102,4 @@ const skills = () => {
 };
 
 export default skills;
+

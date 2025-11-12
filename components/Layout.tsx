@@ -1,7 +1,12 @@
+import { ReactNode } from "react";
 import Meta from "./Meta";
 import Nav from "./Nav";
 
-const Layout = ({ children }) => {
+interface LayoutProps {
+  children: ReactNode;
+}
+
+const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Meta />
@@ -14,3 +19,4 @@ const Layout = ({ children }) => {
 };
 
 export default Layout;
+

@@ -116,7 +116,7 @@ const bootcampReview = () => {
         <br />
         <img className="w-full md:w-1/4 mx-auto" src="/3.jpeg" alt="" />
       </p>
-      <h2>“It slipped our minds!”</h2>
+      <h2>"It slipped our minds!"</h2>
       <p>
         對，德國公司太忙，他在信中提及他忘記了～，我在 Demo day隔日收到他的Email
         ，好吧還好啦，只比預計最晚日多一天而已。於是就這樣 set up
@@ -135,7 +135,7 @@ const bootcampReview = () => {
         中間發生了小插曲，我收到來自另外一間公司人資的面試邀請，中間公司似乎對我很有興趣…還在信中提及我是候選人之中的前10%，雖然不知道是不是在唬爛但字裡行間看得出來誠意十足，不過他們的關卡很多，等的時間又久，所以…嗯…我還是有約面試時間，就再看看吧～
       </p>
       <h2>
-        “We really like you and we would be very happy to work with you！”
+        "We really like you and we would be very happy to work with you！"
       </h2>
       <p>
         皇天不負苦心人…過了一個月…我終於找到我心儀的遠距工作了，這一路走來，每天心裡都是七上八下，一直盯著信箱看有沒有回覆了！此刻的心情一言難盡，只能說一路走來的努力總算有了回報，但我知道這不是終點，真正的工程師之路才要開始…。
@@ -146,3 +146,4 @@ const bootcampReview = () => {
 };
 
 export default bootcampReview;
+

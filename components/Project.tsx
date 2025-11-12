@@ -1,6 +1,16 @@
 import Image from "next/image";
 
-const Project = ({ project }) => {
+interface ProjectProps {
+  project: {
+    title: string;
+    img: string;
+    link: string;
+    gh: string;
+    desc: string;
+  };
+}
+
+const Project = ({ project }: ProjectProps) => {
   return (
     <div className="group relative w-full lg:w-5/12 lg:mx-8 mb-16 p-4">
       <div className="relative w-full h-64 lg:h-96 rounded-md overflow-hidden">
@@ -43,3 +53,4 @@ const Project = ({ project }) => {
 };
 
 export default Project;
+
