@@ -11,9 +11,9 @@ const Nav = () => {
           <li className="ml-4">
             <Link href="/projects">Projects</Link>
           </li>
-          <li className="ml-4">
+          {/* <li className="ml-4">
             <Link href="/skills">Skills</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

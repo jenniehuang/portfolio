@@ -34,7 +34,7 @@ export default function Home() {
           />
         </a>
         <a className="mb-4 md:mr-8" href="https://medium.com/@tingt">
-          <Image src="/medium.png" width={40} height={40} style={{ objectFit: 'contain' }} alt="Medium" />
+          <Image src="/medium.png" width={40} height={40} style={{ objectFit: 'contain', width: '40px', height: '40px' }} alt="Medium" />
         </a>
         <a
           className="mb-4 -mt-1 md:mr-8 border-2 border-black rounded-md px-4 py-1 text-lg font-semibold"
