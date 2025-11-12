@@ -19,7 +19,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col md:flex-row items-center md:pl-16 fade-in-1">
         <a className="mb-4 md:mr-8" href="https://github.com/jenniehuang">
-          <Image src="/github.png" width={45} height={45} objectFit="contain" />
+          <Image src="/github.png" width={45} height={45} style={{ objectFit: 'contain' }} alt="GitHub" />
         </a>
         <a
           className="mb-4 md:mr-8"
@@ -29,11 +29,12 @@ export default function Home() {
             src="/linkedin.png"
             width={45}
             height={45}
-            objectFit="contain"
+            style={{ objectFit: 'contain' }}
+            alt="LinkedIn"
           />
         </a>
         <a className="mb-4 md:mr-8" href="https://medium.com/@tingt">
-          <Image src="/medium.png" width={40} height={40} objectFit="contain" />
+          <Image src="/medium.png" width={40} height={40} style={{ objectFit: 'contain' }} alt="Medium" />
         </a>
         <a
           className="mb-4 -mt-1 md:mr-8 border-2 border-black rounded-md px-4 py-1 text-lg font-semibold"

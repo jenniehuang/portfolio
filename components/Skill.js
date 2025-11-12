@@ -6,9 +6,10 @@ const Skill = ({ skill }) => {
       <Image
         className="w-full"
         src={skill.img}
-        width="100%"
-        height="100%"
-        objectFit="contain"
+        width={200}
+        height={200}
+        style={{ objectFit: 'contain' }}
+        alt={skill.title}
       />
 
       <p className="font-semibold mt-4 text-lg">{skill.title}</p>
